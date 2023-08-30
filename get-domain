@@ -51,10 +51,10 @@ ns_domain_cloudflare() {
     DOMAINNS="rizkishope.my.id"
     DAOMIN=$(cat /etc/xray/domain)
     SUB=$(tr </dev/urandom -dc a-z0-9 | head -c6)
-    SUB_DOMAIN=${SUB}."rizkishope.my.id"
+    SUB_DOMAIN=${SUB}."storespremium.biz.id"
     NS_DOMAIN=ns.${SUB_DOMAIN}
-    CF_ID=rizkihdyt6@gmail.com
-    CF_KEY=15c999c8f900f4d36851f95d05f9c34b9130a
+    CF_ID=irawancandra6699@gmail.com
+    CF_KEY=b07ea594ebc844a5d9db4a88fbdb09d9a7170
     set -euo pipefail
     IP=$(wget -qO- ipinfo.io/ip)
     ZONE=$(
