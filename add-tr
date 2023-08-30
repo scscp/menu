@@ -1,14 +1,16 @@
 #!/bin/bash
 clear
+clear
 red() { echo -e "\\033[32;1m${*}\\033[0m"; }
-domain=$(cat /etc/xray/domain)
-PUB=$(cat /etc/slowdns/server.pub)
-CITY=$(cat /etc/xray/city)
-NS=$(cat /etc/xray/dns)
 TIMES="10"
 CHATID=$(grep -E "^#bot# " "/etc/bot/.bot.db" | cut -d ' ' -f 3)
 KEY=$(grep -E "^#bot# " "/etc/bot/.bot.db" | cut -d ' ' -f 2)
 URL="https://api.telegram.org/bot$KEY/sendMessage"
+clear
+domain=$(cat /etc/xray/domain)
+PUB=$(cat /etc/slowdns/server.pub)
+CITY=$(cat /etc/xray/city)
+NS=$(cat /etc/xray/dns)
 ipsaya=$(wget -qO- ipinfo.io/ip)
 data_server=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
 date_list=$(date +"%Y-%m-%d" -d "$data_server")
