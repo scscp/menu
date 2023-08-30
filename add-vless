@@ -5,6 +5,7 @@ TIMES="10"
 CHATID=$(grep -E "^#bot# " "/etc/bot/.bot.db" | cut -d ' ' -f 3)
 KEY=$(grep -E "^#bot# " "/etc/bot/.bot.db" | cut -d ' ' -f 2)
 URL="https://api.telegram.org/bot$KEY/sendMessage"
+clear
 domain=$(cat /etc/xray/domain)
 PUB=$(cat /etc/slowdns/server.pub)
 CITY=$(cat /etc/xray/city)
