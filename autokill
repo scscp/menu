@@ -1,8 +1,8 @@
 #!/bin/bash
 red() { echo -e "\\033[32;1m${*}\\033[0m"; }
 TIMES="10"
-CHATID="1316596937"
-KEY="5971208176:AAFkXhVOeTuOdKxoFJWkijyUq7LR1JwUuCA"
+CHATID="5879214876"
+KEY="6527590744:AAFabcavk-EwHPbA5b5uRNhXcf7ypXMcKGI"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 clear
 Green_font_prefix="\033[32m" && Red_font_prefix="\033[31m" && Green_background_prefix="\033[42;37m" && Red_background_prefix="\033[41;37m" && Font_color_suffix="\033[0m"
