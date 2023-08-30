@@ -83,11 +83,11 @@ Exp=$(curl -sS ${Repo1}ip | grep $MYIP | awk '{print $3}')
 
 clear
 echo -e "\033[96m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
-echo -e "\e[1;97m                   AIXXXYSSH.COM      \e[0m"
+echo -e "\e[1;97m                     CANDRASTORES                        \e[0m"
 echo -e "\033[96m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 echo -e "  ${Blue}XRAY${NC}: [ ${status_xray} ]     ${Blue}NGINX${NC}: [ ${status_nginx} ${NC} ]   ${Blue}HAPROXY${NC}: [ ${status_haproxy} ${NC}]"
 echo -e "\033[96m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
-echo -e "\e[1;97m                   INFORMATION SERVICE \e[0m"
+echo -e "\e[1;97m               INFORMATION SERVICE \e[0m"
 echo -e "\033[96m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 echo -e ""
 echo -e "   ${YELL}System OS${NC}     :   ${putih}$MODEL${NC}"
